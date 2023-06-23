@@ -3,7 +3,7 @@
 
     <t t-name="owl_playground.playground" owl="1">
       <Counter/>
-      <Todo/>
+      <Todo t-props="{id: 3, description: 'buy milk', done: false}"/>
     </t>
 
 </templates>

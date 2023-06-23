@@ -2,7 +2,8 @@
 <templates xml:space="preserve">
 
     <t t-name="owl_playground.todo" owl="1">
-      <p><t t-esc="todo.id"/>. <t t-esc="todo.description"/></p>
+        <p><t t-esc="props.id"/>. <t t-esc="props.description"/></p>
     </t>
 
 </templates>
+
